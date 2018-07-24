@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="admin" template="forum_edit" modification_key="daVisibleChildrenOption" description="Adds the option to show or hide children posts in parent nodes." execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[hint="{{ phrase('if_disabled_messages_will_never_appear_in_find_new_threads') }}" />]]></find>
+    <replace><![CDATA[$0
+
+<xf:option name="ts_show_children" selected="$forum.ts_show_children"
+					label="{{phrase('ts_visible_children_show')}}"
+					hint="{{phrase('ts_visible_children_show_hint')}}" />]]></replace>
+  </modification>
+</template_modifications>

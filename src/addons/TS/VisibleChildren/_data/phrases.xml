@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="ts_visible_children_show" version_id="1000012" version_string="1.0.0 Alpha 2"><![CDATA[Show posts from child nodes in this node.]]></phrase>
+  <phrase title="ts_visible_children_show_hint" version_id="1000012" version_string="1.0.0 Alpha 2"><![CDATA[If enabled, this will include all posts from all child nodes in this node.]]></phrase>
+</phrases>
