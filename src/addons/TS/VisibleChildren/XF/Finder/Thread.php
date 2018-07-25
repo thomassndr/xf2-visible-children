@@ -22,15 +22,6 @@ namespace TS\VisibleChildren\XF\Finder;
 
 class Thread extends XFCP_Thread {
 	
-	public function inForum(\XF\Entity\Forum $forum, array $limits = []) {
-		
-		if($forum->ts_show_children)
-			return $this->inChildren($forum, $limits);
-		else
-			return parent::inForum($forum, $limits);
-		
-	}
-	
 	public function inChildren(\XF\Entity\Forum $forum, array $limits = []) {
 		
 		$limits = array_replace([
