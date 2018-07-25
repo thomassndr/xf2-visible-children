@@ -20,7 +20,6 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 namespace TS\VisibleChildren\XF\Entity;
 
-use XF\Mvc\Entity\Entity;
 use XF\Mvc\Entity\Structure;
 
 class Forum extends XFCP_Forum {

@@ -21,33 +21,23 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 namespace TS\VisibleChildren;
 
 use XF\AddOn\AbstractSetup;
-use XF\AddOn\StepRunnerInstallTrait;
-use XF\AddOn\StepRunnerUninstallTrait;
-use XF\AddOn\StepRunnerUpgradeTrait;
 use XF\Db\Schema\Alter;
 
 class Setup extends AbstractSetup
 {
-	use StepRunnerInstallTrait;
-	use StepRunnerUpgradeTrait;
-	use StepRunnerUninstallTrait;
-	
+
 	public function install(array $stepParams = []) {
 		
-		$this->schemaManager()->alterTable(
-            'xf_forum',
-            function(Alter $table) {
+		$this->schemaManager()->alterTable('xf_forum', function(Alter $table) {
                 $table->addColumn('ts_show_children', 'tinyint')->setDefault(0);
             }
-        );
+		);
 		
 	}
 	
 	public function uninstall(array $stepParams = []) {
 		
-		$this->schemaManager()->alterTable(
-            'xf_forum',
-            function(Alter $table) {
+		$this->schemaManager()->alterTable('xf_forum', function(Alter $table) {
                 $table->dropColumns(['ts_show_children']);
             }
         );

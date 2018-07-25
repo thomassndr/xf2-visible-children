@@ -21,7 +21,6 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 namespace TS\VisibleChildren\XF\Admin\Controller;
 
 use XF\Mvc\FormAction;
-use XF\Mvc\ParameterBag;
 
 class Forum extends XFCP_Forum {
 		
