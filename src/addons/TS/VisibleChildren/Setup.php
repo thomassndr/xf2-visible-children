@@ -35,6 +35,10 @@ class Setup extends AbstractSetup
 		
 	}
 	
+	public function upgrade(array $stepParams = []) {
+		
+	}
+	
 	public function uninstall(array $stepParams = []) {
 		
 		$this->schemaManager()->alterTable('xf_forum', function(Alter $table) {

@@ -1,7 +1,7 @@
 {
-    "src/addons/TS/VisibleChildren/addon.json": "d3a64e2ee1e85bbbd2b089684b3d07b2dae08abf910b6103ef3e4b09be2d6cf6",
+    "src/addons/TS/VisibleChildren/addon.json": "f24a28fc702db3dc93a533292efca494847a8ade513b0bc8e8452e68d06c05f4",
     "src/addons/TS/VisibleChildren/LICENSE": "d0495053051967ebe76fb1facd287d79d1ed800da1be75cf501a556bc39a0472",
-    "src/addons/TS/VisibleChildren/Setup.php": "e4afc5f15836838929aa537cad622dc1710f0d5c8f708c0fbf38b55cd43ca21f",
+    "src/addons/TS/VisibleChildren/Setup.php": "01083ed60f995c476ba36a3cb700dae1c3db673218bfc6ccaf8c9656cb0f9140",
     "src/addons/TS/VisibleChildren/XF/Admin/Controller/Forum.php": "5c3de1a2ed14da1483622c9bccba859225ec2d78af98755c92db52c55ca239d1",
     "src/addons/TS/VisibleChildren/XF/Entity/Forum.php": "2499bd5da3269fd784e5c1eebbdc4e2e929312d0df30d724939cd7819731cf2f",
     "src/addons/TS/VisibleChildren/XF/Finder/Thread.php": "f4b19733dbf5e2e300f81848bc4cbc0cd3467df6a0d0a116a8465b1e5fbef6b3",
